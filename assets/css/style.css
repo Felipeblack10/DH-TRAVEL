@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* zerando as margens e o padding e deixando proporcional os lados cima e em baixo proporcional*/
+}
+
+body{
+    background-color: #efefef;
+    font-family: 'Roboto', sans-serif;
+    /* aplicando cor de fundo em body*/
+
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+
+    /*quero que ocupe 100% de 1280 px */
+}
+
+a{
+    text-decoration: none;
+    /* tirando o sublinhado dos links*/
+}
+
+header{
+
+    background-color: #0078aa;
+    color: white;
+    width: 100%; 
+    padding: 20px;  
+    /* aplicando cor de fundo, cor na fonte, largura 100%, espaço interno nos quatro lados*/
+
+}
+
+header a{
+    color: white;
+    /*cor na fonte de link*/
+}
+
+header h1, header ul, header ul li{
+    display:inline;
+    /*deixando h1 ul li, em linha*/
+}
+
+header li a {
+    margin-left: 15px;
+    /* dando espaçamento entre os elementos*/
+}
+
+.banner{
+    width: 100%;
+    text-align: center;
+}
+
+.banner h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 48px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+.banner img{
+    width: 70%;
+    border-radius: 8px;
+}
+
+.description{
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.description p {
+    line-height: 19px;
+    text-align: justify;
+    padding: 0 50px;
+    margin-top: 2rem;
+}
+
+footer{
+    margin-top: 40px;
+    width: 100%;
+    background-color: #3ab4f2;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
